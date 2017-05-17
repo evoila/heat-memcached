@@ -1,0 +1,2 @@
+resource_registry:
+  "Evoila::Deployment::Memcached": src/deploy-memcached-centos.yaml
