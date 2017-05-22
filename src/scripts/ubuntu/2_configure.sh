@@ -12,7 +12,6 @@ logfile /var/log/memcached.log
 -u memcache
 -l 0.0.0.0
 -c $CONNECTION_LIMIT
--k
 -M
 EOF
 

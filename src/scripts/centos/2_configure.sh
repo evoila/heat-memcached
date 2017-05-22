@@ -9,7 +9,7 @@ PORT="$BIND_PORT"
 CACHESIZE="$MEMORY_MB"
 MAXCONN="$CONNECTION_LIMIT"
 USER="memcached"
-OPTIONS="-l 0.0.0.0,::1 -k -M"
+OPTIONS="-l 0.0.0.0 -M"
 EOF
 
 service memcached restart
